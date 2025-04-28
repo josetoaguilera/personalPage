@@ -8,7 +8,7 @@ import ProjectsPage from './pages/ProjectsPage';
 function App() {
   return (
     <Routes>
-      <Route path="PersonalPage/" element={<HomePage />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path='/projects' element={<ProjectsPage />} />
