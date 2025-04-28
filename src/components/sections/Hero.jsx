@@ -10,7 +10,7 @@ function Hero() {
       <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">
         Hi, I'm José T. Aguilera
       </h1>
-      <div class="flex justify-center items-center">
+      <div className="flex justify-center items-center">
         <img
           alt="foto_home_jose_tomas"
           src={homeImage}
