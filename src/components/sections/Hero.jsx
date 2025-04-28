@@ -6,7 +6,7 @@ import homeImage from '@/assets/home_img.png'
 function Hero() {
   const navigate = useNavigate();
   return (
-    <div className="flex-grow py-20 text-center">
+    <div className="flex-grow py-20 text-center px-4">
       <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">
         Hi, I'm José T. Aguilera
       </h1>
@@ -19,7 +19,7 @@ function Hero() {
       <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 mt-4">
         A passionate software engineer building amazing things.
       </p>
-      <div className="flex justify-center gap-4">
+      <div className="flex flex-wrap gap-4 justify-self-center justify-center">
         <Button variant="outline" size="lg" className={"cursor-pointer"} onClick={() => navigate('/about')} >About me</Button>
         <Button variant="outline" size="lg" className={"cursor-pointer"} onClick={() => navigate('/projects')}>See My Projects</Button>
         <Button variant="default" size="lg" className={"cursor-pointer"} onClick={() => navigate('/contact')}>Contact Me</Button>

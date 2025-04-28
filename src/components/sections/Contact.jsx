@@ -6,7 +6,7 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 function Contact() {
   return (
-    <section className="py-16 bg-gray-50 dark:bg-gray-800">
+    <section className="py-16 px-4 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8">
           Contact Me
