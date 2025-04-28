@@ -1,19 +1,20 @@
 import React from 'react';
 import ProjectCard from '@/components/common/ProjectCard'; // Your custom card
+import Project_1_img from '@/assets/r_1.png'
+import Project_2_img from '@/assets/r_2.png'
 
 function Projects() {
   const projects = [
     {
       title: 'Color Palette generator (cvd)',
       description: 'Web application designed to help developers and designers create color palettes that are accessible to people with color vision deficiency (CVD). The app allows users to generate color palettes and then simulate how those palettes will appear to people with different types of CVD.',
-      imageUrl: '/img/r_1.png', // Replace with your image
-      // liveUrl: 'https://project1.com',
+      imageUrl: Project_1_img,
       githubUrl: 'https://github.com/josetoaguilera/cvd-color-palette-generator',
     },
     {
       title: 'Portfolio Page',
       description: 'This software engineer portfolio project is about building a clean, responsive website to quickly showcase skills and projects through an "About Me," detailed "Projects" section with links, and easy contact information.',
-      imageUrl: '/img/r_2.png', // Replace with your image
+      imageUrl: Project_2_img,
       liveUrl: '/',
       githubUrl: 'https://github.com/josetoaguilera/josetoaguilera.github.io',
     },
